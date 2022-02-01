@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+div#connect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    flex-direction: column;
+}
+
+div#connect button {
+    background: #4078c0;
+    color: #fff;
+    border: #f1f1f1 solid 3px;
+    padding: .4rem 1rem;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 150ms;
+}
+
+div#connect button:hover {
+    background: #3570bd;
+}
+
+div#connect button:active {
+    border: black solid 3px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+div#search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #f7f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#search h1 {
+    color: black;
+    font-weight: 400;
+    display: inline-block;
+    width: max-content;
+    font-size: 42px;
+    margin-bottom: 10px;
+    margin-top: -70px;
+}
+
+div#search h3 {
+    color: rgb(19, 19, 19);
+    font-weight: 300;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+div#search h4 {
+    color: black;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 4px;
+}
